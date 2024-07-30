@@ -17,7 +17,7 @@ struct ContentView: View {
             Text(textTitle)
                 .font(.title)
                 .fontWeight(.light)
-            
+            //comment
             TextField("Type name here ...", text: $name)
                 .multilineTextAlignment(.center)
                 .border(Color.gray, width: 2)
